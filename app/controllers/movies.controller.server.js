@@ -8,12 +8,12 @@ export function DisplayMoviesList(req, res, next){
             res.end(err);
         }
 
-        res.render('index', {title: 'Movie List', page: 'movies/list', movies: moviesCollection, displayName: UserDisplayName(req)});
+        res.render('index', {title: 'Bussiness Contact List', page: 'movies/list', movies: moviesCollection, displayName: UserDisplayName(req)});
     })
 }
 
 export function DisplayMoviesAddPage(req, res, next){
-    res.render('index', { title: 'Add Movie', page: 'movies/edit', movie: {} , displayName: UserDisplayName(req)});
+    res.render('index', { title: 'Add Contact', page: 'movies/edit', movie: {} , displayName: UserDisplayName(req)});
 }
 
 export function ProcessMoviesAddPage(req, res, next){
