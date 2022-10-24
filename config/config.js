@@ -1,4 +1,4 @@
 export const Secret = "MySecret";
 // export const MongoURI  = "mongodb://127.0.0.1/media"
-export const MongoURI  = "mongodb+srv://testUser:testPass>@cluster-1.y3mynlu.mongodb.net/media?retryWrites=true&w=majority"
+export const MongoURI  = "mongodb+srv://usertest:testPass@secondcluster.9qtcjmf.mongodb.net/?retryWrites=true&w=majority"
 
